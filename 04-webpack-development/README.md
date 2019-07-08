@@ -5,6 +5,7 @@
 ## Key Concepts
 
 - You can have multiple different webpack configs used within your project (for example, one for development and one for production)
+- Source maps provide the mapping from your minified code bundles back to the original code so that you can get helpful line numbers in your error stack trace
 - To have webpack automatically compile your code whenever it changes, you have a few different options:
     - webpack's Watch Mode
     - `webpack-dev-server`
