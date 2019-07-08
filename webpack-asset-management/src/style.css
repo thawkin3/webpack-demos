@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Roboto';
+  src:  url('./Roboto-Regular.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: deeppink;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.hello img {
+  width: 20px;
+  position: relative;
+  top: 4px;
+  left: 10px;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background: url('./background.jpeg');
+  background-size: cover;
+}
