@@ -1,6 +1,6 @@
 # Asset Management
 
-[Webpack Docs](https://webpack.js.org/guides/asset-management/)
+[Webpack Docs - Asset Management](https://webpack.js.org/guides/asset-management/)
 
 ## Key Concepts
 
