@@ -5,8 +5,8 @@
   ],
   "version": "4.35.3",
   "hash": "2c6aa9b8d930bf08fafa",
-  "time": 842,
-  "builtAt": 1562701666911,
+  "time": 790,
+  "builtAt": 1562701804098,
   "publicPath": "",
   "outputPath": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/dist",
   "assetsByChunkName": {
@@ -258,14 +258,14 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
-          "issuerId": 2,
-          "issuerName": "./src/index.js",
+          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
+          "issuerId": 5,
+          "issuerName": "./src/another.js",
           "issuerPath": [
             {
-              "id": 2,
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
-              "name": "./src/index.js"
+              "id": 5,
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
+              "name": "./src/another.js"
             }
           ],
           "failed": false,
@@ -359,9 +359,9 @@
           "issuerName": "./node_modules/lodash/lodash.js",
           "issuerPath": [
             {
-              "id": 2,
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
-              "name": "./src/index.js"
+              "id": 5,
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
+              "name": "./src/another.js"
             },
             {
               "id": 0,
@@ -413,9 +413,9 @@
           "issuerName": "./node_modules/lodash/lodash.js",
           "issuerPath": [
             {
-              "id": 2,
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
-              "name": "./src/index.js"
+              "id": 5,
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
+              "name": "./src/another.js"
             },
             {
               "id": 0,
@@ -906,14 +906,14 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
-      "issuerId": 2,
-      "issuerName": "./src/index.js",
+      "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
+      "issuerId": 5,
+      "issuerName": "./src/another.js",
       "issuerPath": [
         {
-          "id": 2,
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
-          "name": "./src/index.js"
+          "id": 5,
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
+          "name": "./src/another.js"
         }
       ],
       "failed": false,
@@ -1112,9 +1112,9 @@
       "issuerName": "./node_modules/lodash/lodash.js",
       "issuerPath": [
         {
-          "id": 2,
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
-          "name": "./src/index.js"
+          "id": 5,
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
+          "name": "./src/another.js"
         },
         {
           "id": 0,
@@ -1165,9 +1165,9 @@
       "issuerName": "./node_modules/lodash/lodash.js",
       "issuerPath": [
         {
-          "id": 2,
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
-          "name": "./src/index.js"
+          "id": 5,
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
+          "name": "./src/another.js"
         },
         {
           "id": 0,

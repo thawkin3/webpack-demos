@@ -19,7 +19,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Webpack | Bundle Analyzer'
+      title: 'Webpack | Bundle Analysis'
     }),
     new BundleAnalyzerPlugin({
       generateStatsFile: true,

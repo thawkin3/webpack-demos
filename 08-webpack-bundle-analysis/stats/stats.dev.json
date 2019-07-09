@@ -5,10 +5,10 @@
   ],
   "version": "4.35.3",
   "hash": "fd7813874369a87881e2",
-  "time": 546,
-  "builtAt": 1562697669673,
+  "time": 516,
+  "builtAt": 1562701799110,
   "publicPath": "./",
-  "outputPath": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/dist",
+  "outputPath": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/dist",
   "assetsByChunkName": {
     "another": "another.bundle.js",
     "app": "app.bundle.js",
@@ -212,7 +212,7 @@
       "modules": [
         {
           "id": "./src/another.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/another.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
           "name": "./src/another.js",
           "index": 5,
           "index2": 5,
@@ -291,7 +291,7 @@
       "modules": [
         {
           "id": "./src/index.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
           "name": "./src/index.js",
           "index": 0,
           "index2": 4,
@@ -333,7 +333,7 @@
         },
         {
           "id": "./src/print.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/print.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/print.js",
           "name": "./src/print.js",
           "index": 4,
           "index2": 3,
@@ -358,7 +358,7 @@
           "reasons": [
             {
               "moduleId": "./src/index.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony side effect evaluation",
@@ -367,7 +367,7 @@
             },
             {
               "moduleId": "./src/index.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
@@ -432,7 +432,7 @@
       "modules": [
         {
           "id": "./src/more.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/more.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/more.js",
           "name": "./src/more.js",
           "index": 6,
           "index2": 6,
@@ -510,7 +510,7 @@
       "modules": [
         {
           "id": "./src/print.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/print.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/print.js",
           "name": "./src/print.js",
           "index": 4,
           "index2": 3,
@@ -535,7 +535,7 @@
           "reasons": [
             {
               "moduleId": "./src/index.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony side effect evaluation",
@@ -544,7 +544,7 @@
             },
             {
               "moduleId": "./src/index.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
@@ -611,7 +611,7 @@
       "modules": [
         {
           "id": "./node_modules/lodash/lodash.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
           "name": "./node_modules/lodash/lodash.js",
           "index": 1,
           "index2": 2,
@@ -623,13 +623,13 @@
           "chunks": [
             "vendors~another~app~more"
           ],
-          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
           "issuerId": "./src/index.js",
           "issuerName": "./src/index.js",
           "issuerPath": [
             {
               "id": "./src/index.js",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
               "name": "./src/index.js"
             }
           ],
@@ -641,7 +641,7 @@
           "reasons": [
             {
               "moduleId": "./src/another.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/another.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
               "module": "./src/another.js",
               "moduleName": "./src/another.js",
               "type": "harmony side effect evaluation",
@@ -650,7 +650,7 @@
             },
             {
               "moduleId": "./src/another.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/another.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
               "module": "./src/another.js",
               "moduleName": "./src/another.js",
               "type": "harmony import specifier",
@@ -659,7 +659,7 @@
             },
             {
               "moduleId": "./src/index.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony side effect evaluation",
@@ -668,7 +668,7 @@
             },
             {
               "moduleId": "./src/index.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
               "module": "./src/index.js",
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
@@ -677,7 +677,7 @@
             },
             {
               "moduleId": "./src/more.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/more.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/more.js",
               "module": "./src/more.js",
               "moduleName": "./src/more.js",
               "type": "harmony side effect evaluation",
@@ -686,7 +686,7 @@
             },
             {
               "moduleId": "./src/more.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/more.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/more.js",
               "module": "./src/more.js",
               "moduleName": "./src/more.js",
               "type": "harmony import specifier",
@@ -703,7 +703,7 @@
         },
         {
           "id": "./node_modules/webpack/buildin/global.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/webpack/buildin/global.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/webpack/buildin/global.js",
           "name": "(webpack)/buildin/global.js",
           "index": 2,
           "index2": 0,
@@ -715,18 +715,18 @@
           "chunks": [
             "vendors~another~app~more"
           ],
-          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
           "issuerId": "./node_modules/lodash/lodash.js",
           "issuerName": "./node_modules/lodash/lodash.js",
           "issuerPath": [
             {
               "id": "./src/index.js",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
               "name": "./src/index.js"
             },
             {
               "id": "./node_modules/lodash/lodash.js",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
               "name": "./node_modules/lodash/lodash.js"
             }
           ],
@@ -738,7 +738,7 @@
           "reasons": [
             {
               "moduleId": "./node_modules/lodash/lodash.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
               "module": "./node_modules/lodash/lodash.js",
               "moduleName": "./node_modules/lodash/lodash.js",
               "type": "cjs require",
@@ -755,7 +755,7 @@
         },
         {
           "id": "./node_modules/webpack/buildin/module.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/webpack/buildin/module.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/webpack/buildin/module.js",
           "name": "(webpack)/buildin/module.js",
           "index": 3,
           "index2": 1,
@@ -767,18 +767,18 @@
           "chunks": [
             "vendors~another~app~more"
           ],
-          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
           "issuerId": "./node_modules/lodash/lodash.js",
           "issuerName": "./node_modules/lodash/lodash.js",
           "issuerPath": [
             {
               "id": "./src/index.js",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
               "name": "./src/index.js"
             },
             {
               "id": "./node_modules/lodash/lodash.js",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
               "name": "./node_modules/lodash/lodash.js"
             }
           ],
@@ -790,7 +790,7 @@
           "reasons": [
             {
               "moduleId": "./node_modules/lodash/lodash.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
               "module": "./node_modules/lodash/lodash.js",
               "moduleName": "./node_modules/lodash/lodash.js",
               "type": "cjs require",
@@ -841,7 +841,7 @@
   "modules": [
     {
       "id": "./node_modules/lodash/lodash.js",
-      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
       "name": "./node_modules/lodash/lodash.js",
       "index": 1,
       "index2": 2,
@@ -853,13 +853,13 @@
       "chunks": [
         "vendors~another~app~more"
       ],
-      "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+      "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
       "issuerId": "./src/index.js",
       "issuerName": "./src/index.js",
       "issuerPath": [
         {
           "id": "./src/index.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
           "name": "./src/index.js"
         }
       ],
@@ -871,7 +871,7 @@
       "reasons": [
         {
           "moduleId": "./src/another.js",
-          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/another.js",
+          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
           "module": "./src/another.js",
           "moduleName": "./src/another.js",
           "type": "harmony side effect evaluation",
@@ -880,7 +880,7 @@
         },
         {
           "moduleId": "./src/another.js",
-          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/another.js",
+          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
           "module": "./src/another.js",
           "moduleName": "./src/another.js",
           "type": "harmony import specifier",
@@ -889,7 +889,7 @@
         },
         {
           "moduleId": "./src/index.js",
-          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "harmony side effect evaluation",
@@ -898,7 +898,7 @@
         },
         {
           "moduleId": "./src/index.js",
-          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "harmony import specifier",
@@ -907,7 +907,7 @@
         },
         {
           "moduleId": "./src/more.js",
-          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/more.js",
+          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/more.js",
           "module": "./src/more.js",
           "moduleName": "./src/more.js",
           "type": "harmony side effect evaluation",
@@ -916,7 +916,7 @@
         },
         {
           "moduleId": "./src/more.js",
-          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/more.js",
+          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/more.js",
           "module": "./src/more.js",
           "moduleName": "./src/more.js",
           "type": "harmony import specifier",
@@ -932,7 +932,7 @@
     },
     {
       "id": "./node_modules/webpack/buildin/global.js",
-      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/webpack/buildin/global.js",
+      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/webpack/buildin/global.js",
       "name": "(webpack)/buildin/global.js",
       "index": 2,
       "index2": 0,
@@ -944,18 +944,18 @@
       "chunks": [
         "vendors~another~app~more"
       ],
-      "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+      "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
       "issuerId": "./node_modules/lodash/lodash.js",
       "issuerName": "./node_modules/lodash/lodash.js",
       "issuerPath": [
         {
           "id": "./src/index.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
           "name": "./src/index.js"
         },
         {
           "id": "./node_modules/lodash/lodash.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
           "name": "./node_modules/lodash/lodash.js"
         }
       ],
@@ -967,7 +967,7 @@
       "reasons": [
         {
           "moduleId": "./node_modules/lodash/lodash.js",
-          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
           "module": "./node_modules/lodash/lodash.js",
           "moduleName": "./node_modules/lodash/lodash.js",
           "type": "cjs require",
@@ -983,7 +983,7 @@
     },
     {
       "id": "./node_modules/webpack/buildin/module.js",
-      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/webpack/buildin/module.js",
+      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/webpack/buildin/module.js",
       "name": "(webpack)/buildin/module.js",
       "index": 3,
       "index2": 1,
@@ -995,18 +995,18 @@
       "chunks": [
         "vendors~another~app~more"
       ],
-      "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+      "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
       "issuerId": "./node_modules/lodash/lodash.js",
       "issuerName": "./node_modules/lodash/lodash.js",
       "issuerPath": [
         {
           "id": "./src/index.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
           "name": "./src/index.js"
         },
         {
           "id": "./node_modules/lodash/lodash.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
           "name": "./node_modules/lodash/lodash.js"
         }
       ],
@@ -1018,7 +1018,7 @@
       "reasons": [
         {
           "moduleId": "./node_modules/lodash/lodash.js",
-          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
           "module": "./node_modules/lodash/lodash.js",
           "moduleName": "./node_modules/lodash/lodash.js",
           "type": "cjs require",
@@ -1034,7 +1034,7 @@
     },
     {
       "id": "./src/another.js",
-      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/another.js",
+      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/another.js",
       "name": "./src/another.js",
       "index": 5,
       "index2": 5,
@@ -1075,7 +1075,7 @@
     },
     {
       "id": "./src/index.js",
-      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
       "name": "./src/index.js",
       "index": 0,
       "index2": 4,
@@ -1116,7 +1116,7 @@
     },
     {
       "id": "./src/more.js",
-      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/more.js",
+      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/more.js",
       "name": "./src/more.js",
       "index": 6,
       "index2": 6,
@@ -1157,7 +1157,7 @@
     },
     {
       "id": "./src/print.js",
-      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/print.js",
+      "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/print.js",
       "name": "./src/print.js",
       "index": 4,
       "index2": 3,
@@ -1182,7 +1182,7 @@
       "reasons": [
         {
           "moduleId": "./src/index.js",
-          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "harmony side effect evaluation",
@@ -1191,7 +1191,7 @@
         },
         {
           "moduleId": "./src/index.js",
-          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/src/index.js",
+          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/src/index.js",
           "module": "./src/index.js",
           "moduleName": "./src/index.js",
           "type": "harmony import specifier",
@@ -1225,7 +1225,7 @@
       "warnings": [
       ],
       "publicPath": "./",
-      "outputPath": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/dist",
+      "outputPath": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/dist",
       "assetsByChunkName": {
       },
       "assets": [
@@ -1293,7 +1293,7 @@
           "modules": [
             {
               "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
               "index": 0,
               "index2": 3,
@@ -1321,7 +1321,7 @@
                   "module": null,
                   "moduleName": null,
                   "type": "single entry",
-                  "userRequest": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs"
+                  "userRequest": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs"
                 }
               ],
               "providedExports": null,
@@ -1332,7 +1332,7 @@
             },
             {
               "id": "./node_modules/lodash/lodash.js",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
               "name": "./node_modules/lodash/lodash.js",
               "index": 1,
               "index2": 2,
@@ -1344,13 +1344,13 @@
               "chunks": [
                 0
               ],
-              "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+              "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
               "issuerId": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
               "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
               "issuerPath": [
                 {
                   "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
-                  "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+                  "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs"
                 }
               ],
@@ -1362,7 +1362,7 @@
               "reasons": [
                 {
                   "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
-                  "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+                  "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
                   "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
                   "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
                   "type": "cjs require",
@@ -1378,7 +1378,7 @@
             },
             {
               "id": "./node_modules/webpack/buildin/global.js",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/webpack/buildin/global.js",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/webpack/buildin/global.js",
               "name": "(webpack)/buildin/global.js",
               "index": 2,
               "index2": 0,
@@ -1390,18 +1390,18 @@
               "chunks": [
                 0
               ],
-              "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+              "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
               "issuerId": "./node_modules/lodash/lodash.js",
               "issuerName": "./node_modules/lodash/lodash.js",
               "issuerPath": [
                 {
                   "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
-                  "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+                  "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs"
                 },
                 {
                   "id": "./node_modules/lodash/lodash.js",
-                  "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+                  "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
                   "name": "./node_modules/lodash/lodash.js"
                 }
               ],
@@ -1413,7 +1413,7 @@
               "reasons": [
                 {
                   "moduleId": "./node_modules/lodash/lodash.js",
-                  "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+                  "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
                   "module": "./node_modules/lodash/lodash.js",
                   "moduleName": "./node_modules/lodash/lodash.js",
                   "type": "cjs require",
@@ -1429,7 +1429,7 @@
             },
             {
               "id": "./node_modules/webpack/buildin/module.js",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/webpack/buildin/module.js",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/webpack/buildin/module.js",
               "name": "(webpack)/buildin/module.js",
               "index": 3,
               "index2": 1,
@@ -1441,18 +1441,18 @@
               "chunks": [
                 0
               ],
-              "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+              "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
               "issuerId": "./node_modules/lodash/lodash.js",
               "issuerName": "./node_modules/lodash/lodash.js",
               "issuerPath": [
                 {
                   "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
-                  "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+                  "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
                   "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs"
                 },
                 {
                   "id": "./node_modules/lodash/lodash.js",
-                  "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+                  "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
                   "name": "./node_modules/lodash/lodash.js"
                 }
               ],
@@ -1464,7 +1464,7 @@
               "reasons": [
                 {
                   "moduleId": "./node_modules/lodash/lodash.js",
-                  "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+                  "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
                   "module": "./node_modules/lodash/lodash.js",
                   "moduleName": "./node_modules/lodash/lodash.js",
                   "type": "cjs require",
@@ -1486,7 +1486,7 @@
               "moduleIdentifier": "",
               "moduleName": "",
               "loc": "",
-              "request": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+              "request": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
               "reasons": [
               ]
             }
@@ -1496,7 +1496,7 @@
       "modules": [
         {
           "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
           "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
           "index": 0,
           "index2": 3,
@@ -1524,7 +1524,7 @@
               "module": null,
               "moduleName": null,
               "type": "single entry",
-              "userRequest": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs"
+              "userRequest": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs"
             }
           ],
           "providedExports": null,
@@ -1535,7 +1535,7 @@
         },
         {
           "id": "./node_modules/lodash/lodash.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
           "name": "./node_modules/lodash/lodash.js",
           "index": 1,
           "index2": 2,
@@ -1547,13 +1547,13 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
           "issuerId": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
           "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
           "issuerPath": [
             {
               "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs"
             }
           ],
@@ -1565,7 +1565,7 @@
           "reasons": [
             {
               "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
               "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
               "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
               "type": "cjs require",
@@ -1581,7 +1581,7 @@
         },
         {
           "id": "./node_modules/webpack/buildin/global.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/webpack/buildin/global.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/webpack/buildin/global.js",
           "name": "(webpack)/buildin/global.js",
           "index": 2,
           "index2": 0,
@@ -1593,18 +1593,18 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
           "issuerId": "./node_modules/lodash/lodash.js",
           "issuerName": "./node_modules/lodash/lodash.js",
           "issuerPath": [
             {
               "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs"
             },
             {
               "id": "./node_modules/lodash/lodash.js",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
               "name": "./node_modules/lodash/lodash.js"
             }
           ],
@@ -1616,7 +1616,7 @@
           "reasons": [
             {
               "moduleId": "./node_modules/lodash/lodash.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
               "module": "./node_modules/lodash/lodash.js",
               "moduleName": "./node_modules/lodash/lodash.js",
               "type": "cjs require",
@@ -1632,7 +1632,7 @@
         },
         {
           "id": "./node_modules/webpack/buildin/module.js",
-          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/webpack/buildin/module.js",
+          "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/webpack/buildin/module.js",
           "name": "(webpack)/buildin/module.js",
           "index": 3,
           "index2": 1,
@@ -1644,18 +1644,18 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+          "issuer": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
           "issuerId": "./node_modules/lodash/lodash.js",
           "issuerName": "./node_modules/lodash/lodash.js",
           "issuerPath": [
             {
               "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/html-webpack-plugin/default_index.ejs",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/lib/loader.js!/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/html-webpack-plugin/default_index.ejs",
               "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs"
             },
             {
               "id": "./node_modules/lodash/lodash.js",
-              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+              "identifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
               "name": "./node_modules/lodash/lodash.js"
             }
           ],
@@ -1667,7 +1667,7 @@
           "reasons": [
             {
               "moduleId": "./node_modules/lodash/lodash.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analyzer/node_modules/lodash/lodash.js",
+              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/08-webpack-bundle-analysis/node_modules/lodash/lodash.js",
               "module": "./node_modules/lodash/lodash.js",
               "moduleName": "./node_modules/lodash/lodash.js",
               "type": "cjs require",
