@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.35.3",
-  "hash": "6457c2d2c7c93356fc51",
-  "time": 576,
-  "builtAt": 1562711401948,
+  "hash": "74b1eceea051f345a4ab",
+  "time": 309,
+  "builtAt": 1562712737773,
   "publicPath": "",
   "outputPath": "/Users/thawkins/Code/SideProjects/webpack-demos/10-webpack-tree-shaking/dist",
   "assetsByChunkName": {
@@ -18,7 +18,7 @@
   "assets": [
     {
       "name": "main.bundle.js",
-      "size": 1162,
+      "size": 1164,
       "chunks": [
         0
       ],
@@ -65,7 +65,7 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 370,
+      "size": 366,
       "names": [
         "main"
       ],
@@ -73,7 +73,7 @@
         "main.bundle.js",
         "main.bundle.js.map"
       ],
-      "hash": "ab7095fdaf926fdd9bb9",
+      "hash": "013f5a4a47c65ba92cef",
       "siblings": [
       ],
       "parents": [
@@ -89,7 +89,7 @@
           "name": "./src/index.js + 1 modules",
           "index": 0,
           "index2": 1,
-          "size": 370,
+          "size": 366,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -130,7 +130,7 @@
               "name": "./src/index.js",
               "index": 0,
               "index2": 1,
-              "size": 275,
+              "size": 271,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -164,7 +164,7 @@
                 "ModuleConcatenation bailout: Module is an entry point"
               ],
               "depth": 0,
-              "source": "import { square } from './math.js';\n\nfunction component() {\n  const element = document.createElement('pre');\n\n  element.innerHTML = [\n    'Hello webpack!',\n    '5 cubed is equal to ' + square(5)\n  ].join('\\n\\n');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n"
+              "source": "import { cube } from './math.js';\n\nfunction component() {\n  const element = document.createElement('pre');\n\n  element.innerHTML = [\n    'Hello webpack!',\n    '5 cubed is equal to ' + cube(5)\n  ].join('\\n\\n');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n"
             },
             {
               "id": null,
@@ -202,7 +202,7 @@
                   "moduleName": "./src/index.js",
                   "type": "harmony side effect evaluation",
                   "userRequest": "./math.js",
-                  "loc": "1:0-35"
+                  "loc": "1:0-33"
                 },
                 {
                   "moduleId": null,
@@ -211,11 +211,11 @@
                   "moduleName": "./src/index.js",
                   "type": "harmony import specifier",
                   "userRequest": "./math.js",
-                  "loc": "8:29-35"
+                  "loc": "8:29-33"
                 }
               ],
               "usedExports": [
-                "square"
+                "cube"
               ],
               "providedExports": [
                 "square",
@@ -228,7 +228,7 @@
             }
           ],
           "filteredModules": 0,
-          "parsedSrc": "function(e,t,n){\"use strict\";n.r(t),document.body.appendChild(function(){const e=document.createElement(\"pre\");var t;return e.innerHTML=[\"Hello webpack!\",\"5 cubed is equal to \"+(t=5,t*t)].join(\"\\n\\n\"),e}())}"
+          "parsedSrc": "function(e,t,n){\"use strict\";n.r(t),document.body.appendChild(function(){const e=document.createElement(\"pre\");var t;return e.innerHTML=[\"Hello webpack!\",\"5 cubed is equal to \"+(t=5,t*t*t)].join(\"\\n\\n\"),e}())}"
         }
       ],
       "filteredModules": 0,
@@ -252,7 +252,7 @@
       "name": "./src/index.js + 1 modules",
       "index": 0,
       "index2": 1,
-      "size": 370,
+      "size": 366,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -293,7 +293,7 @@
           "name": "./src/index.js",
           "index": 0,
           "index2": 1,
-          "size": 275,
+          "size": 271,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -327,7 +327,7 @@
             "ModuleConcatenation bailout: Module is an entry point"
           ],
           "depth": 0,
-          "source": "import { square } from './math.js';\n\nfunction component() {\n  const element = document.createElement('pre');\n\n  element.innerHTML = [\n    'Hello webpack!',\n    '5 cubed is equal to ' + square(5)\n  ].join('\\n\\n');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n"
+          "source": "import { cube } from './math.js';\n\nfunction component() {\n  const element = document.createElement('pre');\n\n  element.innerHTML = [\n    'Hello webpack!',\n    '5 cubed is equal to ' + cube(5)\n  ].join('\\n\\n');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n"
         },
         {
           "id": null,
@@ -365,7 +365,7 @@
               "moduleName": "./src/index.js",
               "type": "harmony side effect evaluation",
               "userRequest": "./math.js",
-              "loc": "1:0-35"
+              "loc": "1:0-33"
             },
             {
               "moduleId": null,
@@ -374,11 +374,11 @@
               "moduleName": "./src/index.js",
               "type": "harmony import specifier",
               "userRequest": "./math.js",
-              "loc": "8:29-35"
+              "loc": "8:29-33"
             }
           ],
           "usedExports": [
-            "square"
+            "cube"
           ],
           "providedExports": [
             "square",

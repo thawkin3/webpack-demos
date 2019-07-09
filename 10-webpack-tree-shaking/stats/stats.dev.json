@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.35.3",
-  "hash": "53979a6466dcaf69bddc",
-  "time": 369,
-  "builtAt": 1562711230429,
+  "hash": "f7fdf9d4e2e79abb8dde",
+  "time": 301,
+  "builtAt": 1562712790092,
   "publicPath": "./",
   "outputPath": "/Users/thawkins/Code/SideProjects/webpack-demos/10-webpack-tree-shaking/dist",
   "assetsByChunkName": {
@@ -15,7 +15,7 @@
   "assets": [
     {
       "name": "main.bundle.js",
-      "size": 10701,
+      "size": 10508,
       "chunks": [
         "main"
       ],
@@ -60,14 +60,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 386,
+      "size": 366,
       "names": [
         "main"
       ],
       "files": [
         "main.bundle.js"
       ],
-      "hash": "25ba87bb71eafbaaa8b1",
+      "hash": "200f7ce8fb88620451ab",
       "siblings": [
       ],
       "parents": [
@@ -83,7 +83,7 @@
           "name": "./src/index.js",
           "index": 0,
           "index2": 1,
-          "size": 291,
+          "size": 271,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -117,8 +117,8 @@
           "optimizationBailout": [
           ],
           "depth": 0,
-          "source": "import { cube, square } from './math.js';\n\nfunction component() {\n  const element = document.createElement('pre');\n\n  element.innerHTML = [\n    'Hello webpack!',\n    '5 cubed is equal to ' + cube(5) + square(5)\n  ].join('\\n\\n');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n",
-          "parsedSrc": "function(module, __webpack_exports__, __webpack_require__) {\n\n\"use strict\";\n__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _math_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./math.js */ \"./src/math.js\");\n\n\nfunction component() {\n  const element = document.createElement('pre');\n\n  element.innerHTML = [\n    'Hello webpack!',\n    '5 cubed is equal to ' + Object(_math_js__WEBPACK_IMPORTED_MODULE_0__[/* cube */ \"a\"])(5) + Object(_math_js__WEBPACK_IMPORTED_MODULE_0__[/* square */ \"b\"])(5)\n  ].join('\\n\\n');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n\n\n/***/ }"
+          "source": "import { cube } from './math.js';\n\nfunction component() {\n  const element = document.createElement('pre');\n\n  element.innerHTML = [\n    'Hello webpack!',\n    '5 cubed is equal to ' + cube(5)\n  ].join('\\n\\n');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n",
+          "parsedSrc": "function(module, __webpack_exports__, __webpack_require__) {\n\n\"use strict\";\n__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _math_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./math.js */ \"./src/math.js\");\n\n\nfunction component() {\n  const element = document.createElement('pre');\n\n  element.innerHTML = [\n    'Hello webpack!',\n    '5 cubed is equal to ' + Object(_math_js__WEBPACK_IMPORTED_MODULE_0__[/* cube */ \"a\"])(5)\n  ].join('\\n\\n');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n\n\n/***/ }"
         },
         {
           "id": "./src/math.js",
@@ -157,7 +157,7 @@
               "moduleName": "./src/index.js",
               "type": "harmony side effect evaluation",
               "userRequest": "./math.js",
-              "loc": "1:0-41"
+              "loc": "1:0-33"
             },
             {
               "moduleId": "./src/index.js",
@@ -167,20 +167,10 @@
               "type": "harmony import specifier",
               "userRequest": "./math.js",
               "loc": "8:29-33"
-            },
-            {
-              "moduleId": "./src/index.js",
-              "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/10-webpack-tree-shaking/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "type": "harmony import specifier",
-              "userRequest": "./math.js",
-              "loc": "8:39-45"
             }
           ],
           "usedExports": [
-            "cube",
-            "square"
+            "cube"
           ],
           "providedExports": [
             "square",
@@ -190,7 +180,7 @@
           ],
           "depth": 1,
           "source": "export function square(x) {\n  return x * x;\n}\n\nexport function cube(x) {\n  return x * x * x;\n}\n",
-          "parsedSrc": "function(module, __webpack_exports__, __webpack_require__) {\n\n\"use strict\";\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"b\", function() { return square; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"a\", function() { return cube; });\nfunction square(x) {\n  return x * x;\n}\n\nfunction cube(x) {\n  return x * x * x;\n}\n\n\n/***/ }"
+          "parsedSrc": "function(module, __webpack_exports__, __webpack_require__) {\n\n\"use strict\";\n/* unused harmony export square */\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"a\", function() { return cube; });\nfunction square(x) {\n  return x * x;\n}\n\nfunction cube(x) {\n  return x * x * x;\n}\n\n\n/***/ }"
         }
       ],
       "filteredModules": 0,
@@ -214,7 +204,7 @@
       "name": "./src/index.js",
       "index": 0,
       "index2": 1,
-      "size": 291,
+      "size": 271,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -248,7 +238,7 @@
       "optimizationBailout": [
       ],
       "depth": 0,
-      "source": "import { cube, square } from './math.js';\n\nfunction component() {\n  const element = document.createElement('pre');\n\n  element.innerHTML = [\n    'Hello webpack!',\n    '5 cubed is equal to ' + cube(5) + square(5)\n  ].join('\\n\\n');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n"
+      "source": "import { cube } from './math.js';\n\nfunction component() {\n  const element = document.createElement('pre');\n\n  element.innerHTML = [\n    'Hello webpack!',\n    '5 cubed is equal to ' + cube(5)\n  ].join('\\n\\n');\n\n  return element;\n}\n\ndocument.body.appendChild(component());\n"
     },
     {
       "id": "./src/math.js",
@@ -287,7 +277,7 @@
           "moduleName": "./src/index.js",
           "type": "harmony side effect evaluation",
           "userRequest": "./math.js",
-          "loc": "1:0-41"
+          "loc": "1:0-33"
         },
         {
           "moduleId": "./src/index.js",
@@ -297,20 +287,10 @@
           "type": "harmony import specifier",
           "userRequest": "./math.js",
           "loc": "8:29-33"
-        },
-        {
-          "moduleId": "./src/index.js",
-          "moduleIdentifier": "/Users/thawkins/Code/SideProjects/webpack-demos/10-webpack-tree-shaking/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "type": "harmony import specifier",
-          "userRequest": "./math.js",
-          "loc": "8:39-45"
         }
       ],
       "usedExports": [
-        "cube",
-        "square"
+        "cube"
       ],
       "providedExports": [
         "square",
