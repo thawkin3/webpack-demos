@@ -1,6 +1,6 @@
+// import math from '../util/math'; // bad
 import { cube, square } from '../util/math'; // good
 // import * as math from '../util/math'; // good
-// import math from '../util/math'; // bad
 
 console.log('section 1 loaded!');
 

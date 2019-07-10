@@ -1,4 +1,3 @@
-import createSection1 from './sections/section1';
 import Icon from './assets/webpack-icon.png';
 import './index.css';
 
@@ -31,9 +30,16 @@ function createHomePage() {
 
   const sectionContainer = document.createElement('div');
   sectionContainer.classList.add('sectionContainer');
+  sectionContainer.innerHTML = 'Click one of the section buttons to load some new content.';
+
+  function button0ClickHandler() {
+    sectionContainer.innerHTML = 'Click one of the section buttons to load some new content.';
+  }
 
   function button1ClickHandler() {
-    createSection1(sectionContainer);
+    import(/* webpackChunkName: "section1" */ './sections/section1')
+      .then(module => module.default(sectionContainer))
+      .catch(error => 'An error occurred while loading section 1');
   }
   
   function button2ClickHandler() {
@@ -54,10 +60,12 @@ function createHomePage() {
       .catch(error => 'An error occurred while loading section 4');
   }
 
+  const navButton0 = createButton('navButton0', 'Home', button0ClickHandler);
   const navButton1 = createButton('navButton1', 'Section 1', button1ClickHandler);
   const navButton2 = createButton('navButton2', 'Section 2', button2ClickHandler);
   const navButton3 = createButton('navButton3', 'Section 3', button3ClickHandler);
   const navButton4 = createButton('navButton4', 'Section 4', button4ClickHandler);
+  navContainer.appendChild(navButton0);
   navContainer.appendChild(navButton1);
   navContainer.appendChild(navButton2);
   navContainer.appendChild(navButton3);
@@ -66,8 +74,6 @@ function createHomePage() {
   container.appendChild(heading);
   container.appendChild(navContainer);
   container.appendChild(sectionContainer);
-
-  createSection1(sectionContainer);
 
   return container;
 }

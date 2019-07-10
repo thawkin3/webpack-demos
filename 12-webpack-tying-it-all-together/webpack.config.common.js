@@ -66,6 +66,7 @@ module.exports = {
           name: true,
           test: /[\\/]node_modules[\\/]/,
           priority: -10,
+          // minSize: 10,
         },
       },
     },

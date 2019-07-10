@@ -1,0 +1,9 @@
+.avatar {
+    width: 3rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.username {
+    display: inline-block;
+}
