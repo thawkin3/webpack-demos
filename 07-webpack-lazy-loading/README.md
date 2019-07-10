@@ -2,6 +2,8 @@
 
 [Webpack Docs - Lazy Loading](https://webpack.js.org/guides/lazy-loading/)
 
+[SplitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/#optimization-splitchunks)
+
 ## Key Concepts
 
 - When using dynamic imports, `chunkFilename` determines the name of non-entry chunk files

@@ -2,6 +2,8 @@
 
 [Webpack Docs - Code Splitting](https://webpack.js.org/guides/code-splitting/)
 
+[SplitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/#optimization-splitchunks)
+
 ## Key Concepts
 
 - Code splitting allows you to split your bundles into smaller chunks that can be loaded on demand or in parallel, which can lead to faster load times for your application
