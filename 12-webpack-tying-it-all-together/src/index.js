@@ -36,10 +36,10 @@ function createHomePage() {
 
   const sectionContainer = document.createElement('div');
   sectionContainer.classList.add('sectionContainer');
-  sectionContainer.innerHTML = 'Click one of the section buttons to load some new content.';
+  sectionContainer.innerHTML = '<p>Click one of the section buttons to load some new content.</p>';
 
   function button0ClickHandler() {
-    sectionContainer.innerHTML = 'Click one of the section buttons to load some new content.';
+    sectionContainer.innerHTML = '<p>Click one of the section buttons to load some new content.</p>';
   }
 
   function button1ClickHandler() {

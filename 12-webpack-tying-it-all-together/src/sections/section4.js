@@ -25,7 +25,7 @@ const createSection4 = (parentElement) => {
     parentElement.removeChild(parentElement.firstChild);
   }
   const section4 = document.createElement('div');
-  section4.innerHTML = 'I am Section 4. I rely on the following dependencies: axios, lodash, dayjs, d3. I share the following dependencies with Section 2: axios. I share the following dependencies with Section 3: lodash, dayjs.';
+  section4.innerHTML = '<p>I am Section 4. I rely on the following third-party dependencies: axios, lodash, dayjs, d3. I share the following third-party dependencies with Section 2: axios. I share the following third-party dependencies with Section 3: lodash, dayjs.</p>';
 
   const joinContainer1 = document.createElement('p');
   joinContainer1.innerHTML = `Text joined by _.join: ${join(['Look', 'at', 'me!'], ' ')}`;
