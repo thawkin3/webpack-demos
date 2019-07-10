@@ -39,6 +39,15 @@ const createSection4 = (parentElement) => {
   dayjsContainer.innerHTML = `Today's date from dayjs: ${dayjs().format('D MMMM YYYY')}`;
   section4.appendChild(dayjsContainer);
 
+  const d3Container = document.createElement('p');
+  d3Container.innerHTML = 'Interactive display from d3:';
+  section4.appendChild(d3Container);
+
+  const canvasElement = document.createElement('canvas');
+  canvasElement.width = 300;
+  canvasElement.height = 300;
+  section4.appendChild(canvasElement);
+
   const fetchingContainer = document.createElement('p');
   fetchingContainer.innerHTML = 'Fetching GitHub user...';
   section4.appendChild(fetchingContainer);
@@ -64,15 +73,6 @@ const createSection4 = (parentElement) => {
       errorContainer.textContent = error.toString();
       section4.appendChild(errorContainer);
     });
-
-  const d3Container = document.createElement('p');
-  d3Container.innerHTML = 'Interactive display from d3:';
-  section4.appendChild(d3Container);
-
-  const canvasElement = document.createElement('canvas');
-  canvasElement.width = 300;
-  canvasElement.height = 300;
-  section4.appendChild(canvasElement);
 
   parentElement.appendChild(section4);
 

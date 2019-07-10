@@ -1,4 +1,14 @@
 canvas {
-    width: 100%;
-    border: 1px solid #000;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.avatar {
+  width: 3rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.username {
+  display: inline-block;
 }

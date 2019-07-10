@@ -48,4 +48,9 @@ h1 {
   width: 40rem;
   max-width: 100%;
 }
-  
+
+@media (max-width: 30em) {
+  .navContainer button {
+    margin: 0 0.125rem 1rem 0.125rem;
+  }
+}
