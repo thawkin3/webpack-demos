@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{tjUo:function(n,e,o){"use strict";o.r(e),document.body.appendChild(function(){const n=document.createElement("pre");var e;return n.innerHTML=["Hello webpack!","5 cubed is equal to "+(e=5,e*e*e)].join("\n\n"),n}())}},[["tjUo",1]]]);
+//# sourceMappingURL=app.6c2733181566881bfa22.js.map
