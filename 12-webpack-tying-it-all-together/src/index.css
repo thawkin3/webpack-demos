@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Roboto';
+  src:  url('./assets/Roboto-Regular.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+}
+  
+body {
+  min-height: 100vh;
+  position: relative;
+  padding: 1rem;
+  margin: 0;
+}
+
+.icon {
+  width: 4rem;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.navContainer {
+  text-align: center;
+}
+
+.navContainer button {
+  margin: 0.5rem;
+}
+
+.sectionContainer {
+  margin: auto;
+  padding: 1rem;
+  border: solid 1px #000;
+  width: 40rem;
+  max-width: 100%;
+}
+  
