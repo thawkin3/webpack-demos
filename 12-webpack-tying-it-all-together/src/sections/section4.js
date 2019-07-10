@@ -7,6 +7,8 @@ import { join } from 'lodash-es'; // good, tree-shakeable
 
 import dayjs from 'dayjs';
 
+import axios from 'axios';
+
 // import * as d3 from 'd3'; // bad, it's huge!
 // import { scaleSequential, interpolateRainbow, randomNormal } from 'd3'; // bad, still huge!
 // much better. d3 recommends using their individual smaller libraries:
@@ -23,7 +25,7 @@ const createSection4 = (parentElement) => {
     parentElement.removeChild(parentElement.firstChild);
   }
   const section4 = document.createElement('div');
-  section4.innerHTML = 'I am Section 4. I rely on the following dependencies: lodash, dayjs, d3. I share the following dependencies with Section 3: lodash. dayjs.';
+  section4.innerHTML = 'I am Section 4. I rely on the following dependencies: axios, lodash, dayjs, d3. I share the following dependencies with Section 2: axios. I share the following dependencies with Section 3: lodash, dayjs.';
 
   const joinContainer1 = document.createElement('p');
   joinContainer1.innerHTML = `Text joined by _.join: ${join(['Look', 'at', 'me!'], ' ')}`;
@@ -36,6 +38,32 @@ const createSection4 = (parentElement) => {
   const dayjsContainer = document.createElement('p');
   dayjsContainer.innerHTML = `Today's date from dayjs: ${dayjs().format('D MMMM YYYY')}`;
   section4.appendChild(dayjsContainer);
+
+  const fetchingContainer = document.createElement('p');
+  fetchingContainer.innerHTML = 'Fetching GitHub user...';
+  section4.appendChild(fetchingContainer);
+
+  axios.get(`https://api.github.com/users/thawkin3`)
+    .then(response => {
+      const responseContainer = document.createElement('div');
+
+      const avatar = new Image();
+      avatar.src = response.data.avatar_url;
+      avatar.classList.add('avatar');
+      responseContainer.appendChild(avatar);
+
+      const usernameContainer = document.createElement('p');
+      usernameContainer.innerHTML = response.data.name;
+      usernameContainer.classList.add('username');
+      responseContainer.appendChild(usernameContainer);
+
+      section4.appendChild(responseContainer);
+    })
+    .catch(error => {
+      const errorContainer = document.createElement('p');
+      errorContainer.textContent = error.toString();
+      section4.appendChild(errorContainer);
+    });
 
   const d3Container = document.createElement('p');
   d3Container.innerHTML = 'Interactive display from d3:';

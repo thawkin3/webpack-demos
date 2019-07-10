@@ -66,7 +66,8 @@ module.exports = {
           name: true,
           test: /[\\/]node_modules[\\/]/,
           priority: -10,
-          // minSize: 10,
+          // minSize: 10, // default is 30000 (30kb before min+gz)
+          // minSize: 50000,
         },
       },
     },

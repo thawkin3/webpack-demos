@@ -8,7 +8,7 @@ const createSection2 = (parentElement) => {
     parentElement.removeChild(parentElement.firstChild);
   }
   const section2 = document.createElement('div');
-  section2.innerHTML = 'I am Section 2. I rely on the following third-party dependencies: axios. I don\'t have any shared dependencies with any other sections though.';
+  section2.innerHTML = 'I am Section 2. I rely on the following third-party dependencies: axios. I share the following dependencies with Section 4: axios';
 
   const fetchingContainer = document.createElement('p');
   fetchingContainer.innerHTML = 'Fetching GitHub user...';

@@ -1,3 +1,9 @@
+// non-dynamic loading
+// import createSection1 from './sections/section1'
+// import createSection2 from './sections/section2'
+// import createSection3 from './sections/section3'
+// import createSection4 from './sections/section4'
+
 import Icon from './assets/webpack-icon.png';
 import './index.css';
 
@@ -37,24 +43,28 @@ function createHomePage() {
   }
 
   function button1ClickHandler() {
+    // createSection1(sectionContainer);
     import(/* webpackChunkName: "section1" */ './sections/section1')
       .then(module => module.default(sectionContainer))
       .catch(error => 'An error occurred while loading section 1');
   }
   
   function button2ClickHandler() {
+    // createSection2(sectionContainer);
     import(/* webpackChunkName: "section2" */ './sections/section2')
       .then(module => module.default(sectionContainer))
       .catch(error => 'An error occurred while loading section 2');
   }
   
   function button3ClickHandler() {
+    // createSection3(sectionContainer);
     import(/* webpackChunkName: "section3" */ './sections/section3')
       .then(module => module.default(sectionContainer))
       .catch(error => 'An error occurred while loading section 3');
   }
   
   function button4ClickHandler() {
+    // createSection4(sectionContainer);
     import(/* webpackChunkName: "section4" */ './sections/section4')
       .then(module => module.default(sectionContainer))
       .catch(error => 'An error occurred while loading section 4');
