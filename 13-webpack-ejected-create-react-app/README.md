@@ -4,6 +4,7 @@
 
 - This is an app I created with `create-react-app` and then ejected via the `yarn eject` script
 - Ejecting the app removes the default `react-scripts` dependency and replaces it with a bunch of dependencies and configs that `react-scripts` was using underneath the hood
+- For some reason all the packages get placed in the `dependencies` section of your `package.json` file, even packages that should really just be in `devDependencies`
 - If you are new to webpack, the output here can be really overwhelming. In my experience, it feels simpler to start your webpack config from scratch rather than using `create-react-app` and then ejecting. This may be an important point to consider before you start a new app.
 
 ## Default Info from create-react-app
