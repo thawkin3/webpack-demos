@@ -12,6 +12,17 @@ module.exports = merge(common, {
   output: {
     publicPath: '/',
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader',
+        ],
+      },
+    ],
+  },
   plugins: [
     new BundleAnalyzerPlugin({
       generateStatsFile: true,

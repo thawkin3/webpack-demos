@@ -1,0 +1,1 @@
+{"version":3,"sources":["css ./node_modules/css-loader/dist/cjs.js!./src/sections/section2.css"],"names":[],"mappings":"AAAA,QACA,UAAA,CAEA,kBACA,CAEA,kBAJA,oBAMA","file":"section2.37b6d0d45612eacb841d.chunk.css","sourcesContent":[".avatar {\n  width: 3rem;\n  display: inline-block;\n  margin-right: 0.5rem;\n}\n\n.username {\n  display: inline-block;\n}\n"]}
