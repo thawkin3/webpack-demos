@@ -1,6 +1,5 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -13,15 +12,6 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new HtmlWebpackPlugin({
-      title: 'Webpack | Tying It All Together',
-      meta: [
-        {
-          name: 'viewport',
-          content: 'width=device-width, initial-scale=1',
-        },
-      ],
-    }),
   ],
   module: {
     rules: [

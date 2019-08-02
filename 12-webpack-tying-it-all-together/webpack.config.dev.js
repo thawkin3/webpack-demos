@@ -1,5 +1,6 @@
 const path = require('path');
 const merge = require('webpack-merge');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const common = require('./webpack.config.common.js');
 
@@ -24,6 +25,11 @@ module.exports = merge(common, {
     ],
   },
   plugins: [
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      inject: true,
+      template: path.resolve(__dirname, 'src', 'index.html'),
+    }),
     new BundleAnalyzerPlugin({
       generateStatsFile: true,
       statsFilename: path.resolve(__dirname, 'stats', 'stats.dev.json'),
