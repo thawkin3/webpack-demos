@@ -44,6 +44,6 @@
     "d3-scale-chromatic": "^1.3.3",
     "dayjs": "^1.8.15",
     "lodash": "^4.17.14",
-    "lodash-es": "^4.17.14"
+    "lodash-es": "^4.17.21"
   }
 }
